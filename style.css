@@ -1,0 +1,11 @@
+.first-wrapper {background-color: #1f2937;color:#fff}
+.footer {background-color: #1f2937;}
+.third-content {background-color: #e5e7eb;}
+.right-first img {width:300px;}
+.flex {display:flex;}
+.logo {flex:1}
+.menu-1 {flex:1;}
+.menu-2 {flex:1;}
+.menu-3 {flex:1;}
+.wrapper {max-width:1000px;}
+.body {margin:0 auto;}
