@@ -1,15 +1,83 @@
-.first-wrapper {background-color: #1f2937;color:#fff;justify-content:space-evenly;}
-.footer {background-color: #1f2937;}
-.third-content {background-color: #e5e7eb;}
-.right-first img {max-width:300px; flex:1}
-.flex {display:flex;}
-.logo {flex:1;}
-.menu {flex:1;}
-.menu-1 {flex:1;}
-.menu-2 {flex:1;}
-.menu-3 {flex:1;}
-.wrapper {}
-body {margin:0 auto;}
-.header {padding-top:20px;justify-content:space-evenly;}
-.left-first {flex:1}
-.right-first {flex:1;justify-content: space-evenly;}
+.first-wrapper {
+   
+    
+    justify-content: space-evenly;
+}
+
+.footer {
+    background-color: #1f2937;
+    color:#fff;
+}
+
+.third-content {
+    background-color: #e5e7eb;
+}
+
+.right-first img {
+    max-width: 300px;
+    flex: 1
+}
+
+.flexbox {
+    display: flex;
+}
+
+.flex {
+    flex: 1;
+}
+
+
+
+.wrapper { background-color: #1f2937; color: #fff;}
+
+body {
+    margin: 0 auto;
+}
+
+.header {
+    padding-top: 20px;
+    justify-content: space-evenly;
+}
+.jcenter {justify-content: center;}
+.acenter {align-content: center;}
+.center {text-align:center;}
+
+.right-first {
+  
+    justify-content: space-evenly;
+}
+.first-content {margin-top:50px;}
+
+
+.left-first {padding-right:20px;}
+
+.second-content-piece {justify-content: center; padding:10px;}
+
+.second-content-box {margin-bottom:15px; border: #3882f6 solid 2px; height:100px;}
+
+.col {flex-direction: column;}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    .dpad {padding: 10px;}
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    .dpad {padding: 20px;}
+  }
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    .dpad {padding: 30px;}
+  } 
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    .dpad {padding: 40px;}
+  } 
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    .dpad {padding: 50px;}
+  }
